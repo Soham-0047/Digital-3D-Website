@@ -339,25 +339,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Host': 'shazam.p.rapidapi.com',
-// 		'X-RapidAPI-Key': '71b46f7ec1msh58674f27bbcd2c0p1a5225jsnb0cb6d9d3dc1'
-// 	}
-// };
-
-// fetch('https://shazam.p.rapidapi.com/search?term=kiss%20the%20rain&locale=en-US&offset=0&limit=5', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
-
-// const audio = document.getElementById('bt');
-// const ad = new Audio('./assets/sound.mp3');
-// audio.addEventListener('click',()=>{
-//     ad.play();
-// })
-
 
 
 // if (Sonorous && Sonorous.isSupported()) {
