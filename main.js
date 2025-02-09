@@ -2,15 +2,9 @@ $('.carousel').carousel({
     interval:3000
   })
 
+  const div = document.querySelector('.container')
 
-
-
-
-
-
-
-
-  jQuery(document).ready(function() {
+     jQuery(document).ready(function() {
     function count($this){
     var current = parseInt($this.html(), 10);
     current = current + 1; /* Where 1 is increment */
@@ -46,3 +40,7 @@ $('.carousel').carousel({
 
 
     });
+  
+ 
+
+  
